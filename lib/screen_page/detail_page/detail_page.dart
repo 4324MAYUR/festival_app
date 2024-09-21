@@ -33,6 +33,10 @@ class _DetailPageState extends State<DetailPage> {
       appBar: AppBar(
         title: const Text("DETAIL PAGE"),
       ),
+      floatingActionButton: IconButton(
+        onPressed: () {},
+        icon: const Icon(Icons.share),
+      ),
       body: Padding(
         padding: const EdgeInsets.all(18),
         child: Column(
@@ -99,7 +103,15 @@ class _DetailPageState extends State<DetailPage> {
                 ),
               ],
             ),
-
+            const SizedBox(height: 20),
+            const Text(
+              "Change the text color",
+              style: TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.bold,
+                color: Colors.black, // You can adjust this color as needed
+              ),
+            ),
             const SizedBox(height: 20),
             // Color selection row
             Row(
