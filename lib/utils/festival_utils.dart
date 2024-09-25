@@ -173,3 +173,9 @@ mixin iconpath {}
 //   AllOption[9]['route']: (context) => const References_Page(),
 //   AllOption[10]['route']: (context) => const Declaration_Page(),
 // };
+Map<String, String> fruitColors = {
+  'Apple': 'Red',
+  'Banana': 'Yellow',
+  'Grapes': 'Purple',
+  'Orange': 'Orange'
+};
